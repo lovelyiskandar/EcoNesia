@@ -1,0 +1,359 @@
+/*navbar*/
+.navbar {
+  background-color: white;
+  padding: 8px 0;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    color: black;
+}
+
+
+.btn0 {
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: none;
+    background: rgb(176, 229, 96);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.nav-link {
+    position: relative;
+    margin: 0 10px;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 5px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(176, 229, 96);
+    transition: width .4s;
+}
+
+.nav-link:hover::after {
+    width: 80%;
+}
+
+/*banner*/
+.banner{
+    height: 95vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://suaraaisyiyah.id/wp-content/uploads/2020/07/c9b008cc031361b7a4a35f5a06491633c272bf57.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 22px;
+}
+
+.desc {
+  font-size: 20px;
+  color: white;
+}
+
+.btn {
+  height: 50px;
+  background: rgb(118, 182, 22);
+  color: white;
+  text-decoration: none;
+  border-radius: 60px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  width: 190px;
+}
+
+.btn:hover {
+  background: rgb(176, 229, 96);
+  color: white;
+}
+
+/*about*/
+.section-padding {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 70px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.style-h1 {
+  font-size: 45px;
+  font-weight: 600;
+  
+}
+
+p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.style-p{
+  color: #777;
+  font-size: 19px;
+  line-height: 22px;
+  padding: 10px 85px;
+  line-height: 28px;
+}
+
+.row {
+  margin-top: 5%;
+  justify-content: space-between;
+}
+
+.about-col {
+  flex-basis: 31%;
+  background: #74b416;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+
+.about-col:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.13);
+}
+
+h3 {
+  color: white;
+}
+
+/* initiatives */
+.card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+}
+
+.card:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.13);
+}
+
+.card-img-wrap {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.card-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card:hover .card-img-wrap img {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.4rem;
+  color: #1a2e1e;
+}
+
+.card-text {
+  color: #777;
+  font-size: 0.95rem;
+  padding: 0;
+}
+
+.section-padding .container .row {
+  margin-top: -50px;
+}
+
+/*Impact*/
+.impact {
+  background-color: #74b416;
+}
+
+.impact-row {
+  margin-top: 0;
+  justify-content: center;
+}
+
+.impact-number {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.impact-label {
+  font-size: 18px;
+  padding: 2px;
+}
+
+/*Subscribe*/
+.subscribe-p {
+  font-size: 14px;
+  padding: 0;
+}
+
+/*Our Story*/
+.story-img {
+  height: 420px;
+  object-fit: cover;
+}
+
+/*Banner about*/
+.banner-about{
+    height: 95vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://cdn.pixabay.com/photo/2018/05/17/22/46/forest-3409907_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 22px;
+}
+
+.values {
+  margin-bottom: 35px;
+}
+
+/*Banner initiatives*/
+.banner-initiatives{
+    height: 95vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://static.wixstatic.com/media/22267a_9c641ba91e144b13810fffe012701a5e~mv2.jpg/v1/fill/w_980,h_593,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/22267a_9c641ba91e144b13810fffe012701a5e~mv2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 22px;
+}
+
+/*Initiatives 2*/
+.initiatives-icon-wrap {
+  width: 60px;
+  height: 60px;
+  background-color: #e8f5e2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.initiatives-icon-wrap i {
+  font-size: 1.6rem;
+  color: rgb(76, 175, 80);
+}
+
+.initiatives-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1a2e1e;
+  margin-bottom: 12px;
+}
+
+.initiatives-desc {
+  color: #5a7a60;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.initiatives-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.initiatives-list li{
+  color: #5a7a60;
+  font-size: 0.95rem;
+  padding: 4px 0px 4px 12px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.initiatives-list li:before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  color: rgb(76, 175, 80);
+  font-weight: 700;
+}
+
+.initiatives-divider {
+  border: none;
+  border-top: 1px solid #e5eee5;
+}
+
+.initiatives-img img:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.13);
+}
+
+/*Banner eco-tips*/
+.banner-eco{
+    height: 95vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2021/03/0321_tree_canopy_1600.jpg?fit=1200%2C675&ssl=1");
+    background-size: cover;
+    background-position: center;
+    padding-top: 22px;
+}
+
+.subscribe {
+  margin-bottom: 50px;
+}
+
+/*eco tips*/
+.eco-card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.eco-card:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.13);
+}
+
+
+.eco-tag {
+  color: #74b416;
+  letter-spacing: 0.05em;
+  padding: 0;
+}
+
+.start-eco-section {
+  min-height: 400px;
+  background-color: #74b416;
+}
+
+.btn-download {
+  background: white;
+  color: #1a7a3a;
+  border: none;
+  border-radius: 60px;
+  padding: 12px 32px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.btn-download:hover {
+  background: #f0f0f0;
+}
+
+.btn-share {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 60px;
+  padding: 12px 32px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.btn-share:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+.eco-card-title {
+  min-height: 72px;
+}
+
+.our-story-img img:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.13);
+}
