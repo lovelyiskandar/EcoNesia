@@ -206,7 +206,7 @@ h3 {
 /*Banner about*/
 .banner-about{
     height: 95vh;
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://jurlique.com.au/cdn/shop/articles/7_WAYS_TO_MAKE_EVERY_DAY_EARTH_DAY_9c2990e0-c893-4d66-9e7a-29b89c8dcf60.jpg?v=1742172049");
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("banner-about.jpg");
     background-size: cover;
     background-position: center;
     padding-top: 22px;
