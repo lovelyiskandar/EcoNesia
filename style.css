@@ -14,7 +14,7 @@
     width: 100px;
     outline: none;
     border: none;
-    background: rgb(176, 229, 96);
+    background: #305711;
     color: white;
     border-radius: 60px;
     font-weight: 700;
@@ -56,7 +56,7 @@
 
 .btn {
   height: 50px;
-  background: rgb(118, 182, 22);
+  background: #305711;
   color: white;
   text-decoration: none;
   border-radius: 60px;
@@ -112,7 +112,7 @@ p {
 
 .about-col {
   flex-basis: 31%;
-  background: #74b416;
+  background: #305711;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -173,7 +173,7 @@ h3 {
 
 /*Impact*/
 .impact {
-  background-color: #74b416;
+  background-color: #305711;
 }
 
 .impact-row {
@@ -312,19 +312,23 @@ h3 {
 
 
 .eco-tag {
-  color: #74b416;
+  color: #305711;
   letter-spacing: 0.05em;
   padding: 0;
 }
 
+.eco-card .small {
+  padding: 5px 0px;
+}
+
 .start-eco-section {
   min-height: 400px;
-  background-color: #74b416;
+  background-color: #305711;
 }
 
 .btn-download {
   background: white;
-  color: #1a7a3a;
+  color: #305711;
   border: none;
   border-radius: 60px;
   padding: 12px 32px;
